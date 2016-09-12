@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif
+    
+}
+
+body {
+    background: url(img/background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.person {
+    display: inline-block;
+    padding: 52px;
+    font-family: sans-serif;       
+}
+
+.person > img {
+	height:300px;
+	width:auto;
+	border-radius: 50%;
+}
+h3 {
+ font-size:30px;
+}
